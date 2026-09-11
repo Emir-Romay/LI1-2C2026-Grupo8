@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Skodheim</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Skodheim - Contacto</h1>
+        <nav aria-label="Menú principal"> 
+            <ul>
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="ciudad.html">Historia</a></li>
+                <li><a href="lugares.html">Lugares turísticos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contacta con nosotros</h2>
+        <form action="/enviar" method="post">
+            <div>
+                <label  for="nombre">Nombre y apellido</label>
+                <input  type="text"
+                        id="nombre"
+                        placeholder="Ingresar nombre y apellido"
+                        name="nombre"
+                        required>
+            </div>
+            <div>
+                <label  for="email">Correo electrónico</label>
+                <input  type="email"
+                        id="email"
+                        placeholder="Ingresar correo electrónico"
+                        name="email"
+                        required>
+            </div>
+            <div>
+                <label for="telefono">Teléfono <em>(opcional)</em></label>
+                <input type="tel"
+                       id="telefono"
+                       placeholder="Ingresar número de teléfono"
+                       name="telefono">
+            </div>
+            <div>
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje"
+                          name="mensaje"
+                          rows="4"
+                          cols="50"
+                          placeholder="Ingresar mensaje"
+                          required></textarea>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </div>
+        </form>
+
+        <section>
+            <h2>Enlaces directos:</h2>
+            <address>
+                <p><a href="tel:4752841630" aria-label="Contáctanos por teléfono">📞</a></p>
+                <p><a href="mailto:turismo@skodheim.com" aria-label="Contáctanos por mail">✉️</a></p>
+                <p><a href="https://maps.google.com/Skodheim" target="_blank" rel="noopener noreferrer" aria-label="Ver nuestra ubicación en google maps">📌</a></p>
+                <p><a href="https://www.instagram.com/TurismoSkodheim" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📷</a></p>
+            </address>
+        </section>    
+    </main>
+
+    <footer>
+        <nav aria-label="Menú del pie de página"> 
+            <a href="#titulo">Volver arriba</a>
+        </nav>
+        <p><small><em>&copy; 2026 - Ciudad Nevada Skodheim - Todos los derechos reservados</em></small></p>
+    </footer>
+
+</body>
+</html>
