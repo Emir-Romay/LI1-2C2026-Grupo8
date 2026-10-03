@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-root {
+:root {
     --color-primario: #1f0074;
     --color-secundario: #4f0074;
     --color-fondo: #d5ecf8;
