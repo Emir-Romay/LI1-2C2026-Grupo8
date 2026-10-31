@@ -28,12 +28,19 @@ body {
     padding-top: 100px;
 }
 
+main {
+  margin: 10px;
+  padding: 10px;
+}   
+
 /* -------------HEADER/NAV----------------*/
 
 header {
     background-color:var(--color-header);
     margin: auto;
-    padding: 1rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    padding-top: 50px;
 }
 
 header h1 {
@@ -93,16 +100,14 @@ h1 { font-size: 2rem; color: white;}
 h2 { font-size: 1.5rem; color: var(--color-subtitulos);}
 h3 { font-size: 1.25rem; color: var(--color-subtitulos);}
 
-/* -------------ESPACIADO GENERAL (para el espaciado con margin y padding del main, section, parrafos, etc)----------------*/
-
-
-
 /* -------------SECCION CENTRAL SUPERIOR INDEX----------------*/
 
 #SeccionCentralSuperior{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    margin: 0 auto;
     padding: 1rem;
+    padding-top: 30px;
 }
 
 /* -------------SECCION CENTRAL INFERIOR INDEX----------------*/
@@ -115,6 +120,9 @@ h3 { font-size: 1.25rem; color: var(--color-subtitulos);}
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    padding-top: 50px;
 }
 
 .SeccionInferior {
@@ -127,6 +135,8 @@ h3 { font-size: 1.25rem; color: var(--color-subtitulos);}
     padding: 1rem;
     border-radius: 15px;
     margin-bottom: 2rem;
+    margin: 0 auto;
+    padding-top: 15px;
 }
 
 /* -------------ASIDE----------------*/
@@ -196,6 +206,7 @@ aside ul {
 }
 
 .zona ul {
+    margin: 0 auto;
     padding: 1rem;
 }
 
@@ -239,4 +250,5 @@ footer {
     color: white;    
     padding: 1.5rem;
     margin-top: 1.75rem;
+    margin: 0 auto;
 }
