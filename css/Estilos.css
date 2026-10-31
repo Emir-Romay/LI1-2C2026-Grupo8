@@ -25,6 +25,7 @@ body {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 1rem;
+    padding-top: 100px;
 }
 
 /* -------------HEADER/NAV----------------*/
@@ -32,12 +33,36 @@ body {
 header {
     background-color:var(--color-header);
     margin: auto;
-    padding: 0 1rem;
+    padding: 1rem;
 }
 
 header h1 {
     text-align: center;
     font: 1rem;
+}
+
+.navbar {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    z-index: 1000;
+    background-color: var(--color-header);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+#navbarTogglerDemo01 {
+    background-color: var(--color-header);
+    color: var(--color-nav);
+    padding: 1rem;
+}
+
+.arreglarBoton {
+   margin-left: 0.5rem;
+   height: 2.6rem;
 }
 
 
@@ -55,7 +80,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 /* -------------TITULOS/SUBTITULOS----------------*/
@@ -63,6 +88,10 @@ nav a:hover {
 h1 { font-size: 2rem; color: white;}
 h2 { font-size: 1.5rem; color: var(--color-subtitulos);}
 h3 { font-size: 1.25rem; color: var(--color-subtitulos);}
+
+/* -------------ESPACIADO GENERAL (para el espaciado con margin y padding del main, section, parrafos, etc)----------------*/
+
+
 
 /* -------------SECCION CENTRAL SUPERIOR INDEX----------------*/
 
