@@ -60,6 +60,10 @@ header h1 {
     padding: 1rem;
 }
 
+.arreglarBotonCerrar {
+    margin-left: 19rem;
+}
+
 .arreglarBoton {
    margin-left: 0.5rem;
    height: 2.6rem;
