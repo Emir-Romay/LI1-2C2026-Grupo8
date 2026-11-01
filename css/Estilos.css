@@ -235,6 +235,20 @@ button:hover {
     background-color: var(--color-primario);
 }
 
+/* -------------FLEXBOX - CARDS RESPONSIVAS------------- */
+
+.lugares-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.lugares-flex .lugar {
+    flex: 1 1 300px;
+    margin: 0;
+}   
+
 /* -------------FOOTER----------------*/
 
 footer {
