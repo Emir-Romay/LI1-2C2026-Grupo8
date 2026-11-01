@@ -48,35 +48,6 @@ header h1 {
     font: 1rem;
 }
 
-.navbar {
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 15%;
-    z-index: 1000;
-    background-color: var(--color-header);
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
-
-
-#navbarTogglerDemo01 {
-    background-color: var(--color-header);
-    color: var(--color-nav);
-    padding: 1rem;
-}
-
-.arreglarBotonCerrar {
-    margin-left: 19rem;
-}
-
-.arreglarBoton {
-   margin-left: 0.5rem;
-   height: 2.6rem;
-}
-
-
 nav ul {
     list-style: none;
     display: flex;
@@ -93,6 +64,36 @@ nav a {
 nav a:hover {
     color: rgb(255, 0, 0);
 }
+
+/* -------------HEADER/NAV BOOTSTRAP----------------*/
+
+.navbar {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    z-index: 1000;
+    background-color: var(--color-header);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#navbarTogglerDemo01 {
+    background-color: var(--color-header);
+    color: var(--color-nav);
+    padding: 1rem;
+}
+
+.arreglarBotonCerrar {
+    margin-left: 17rem;
+}
+
+.arreglarBoton {
+   margin-left: 0.5rem;
+   height: 2.6rem;
+}
+
 
 /* -------------TITULOS/SUBTITULOS----------------*/
 
