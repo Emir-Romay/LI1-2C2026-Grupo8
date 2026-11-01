@@ -115,15 +115,8 @@ h3 { font-size: 1.25rem; color: var(--color-subtitulos);}
 
 #SeccionCentralInferior {
     margin-bottom: 2rem;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    margin: 0 auto;
-    padding: 0 1rem;
     padding-top: 50px;
-}
+}   
 
 .SeccionInferior {
     color: var(--color-texto);
