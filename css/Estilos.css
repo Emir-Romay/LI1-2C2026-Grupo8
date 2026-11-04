@@ -24,23 +24,10 @@ body {
     line-height: 1.6;
     margin: 0 auto;
     padding: 0 1rem;
-    padding-top: 100px;
-}
 
-main {
-  margin: 10px;
-  padding: 10px;
-}   
+}
 
 /* -------------HEADER/NAV----------------*/
-
-header {
-    background-color:var(--color-header);
-    margin: auto;
-    margin: 0 auto;
-    padding: 0 1rem;
-    padding-top: 50px;
-}
 
 header h1 {
     text-align: center;
@@ -51,18 +38,20 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 1.5rem;
-    margin-top: 0.5rem;
+    
 }
 
 nav a {
     color: var(--color-nav);
     text-decoration: none;
     font-weight: 600;
+    
 }
 
 nav a:hover {
     color: rgb(255, 0, 0);
 }
+
 
 /* -------------HEADER/NAV BOOTSTRAP----------------*/
 
@@ -75,7 +64,6 @@ nav a:hover {
     z-index: 1000;
     background-color: var(--color-header);
     padding: 1rem;
-    margin-bottom: 1rem;
 }
 
 #navbarTogglerDemo01 {
@@ -93,6 +81,47 @@ nav a:hover {
    height: 2.6rem;
 }
 
+.navbar-brand{
+    color: white;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+/* -------------HERO----------------*/
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url("../img/mirador-auroras.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content h1{
+    font-size: 5rem;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0; 
+    background: rgba(0, 0, 0, 0.55);
+}
 
 /* -------------TITULOS/SUBTITULOS----------------*/
 
@@ -259,3 +288,4 @@ footer {
     margin-top: 1.75rem;
     margin: 0 auto;
 }
+
