@@ -22,7 +22,6 @@ body {
     background-color: var(--color-fondo);
     color: var(--color-texto);
     line-height: 1.6;
-    margin: 0 auto;
     padding: 0 1rem;
 
 }
@@ -260,6 +259,19 @@ button {
 button:hover {
     background-color: var(--color-primario);
 }
+
+/* -------------SECCIONES - PARRAFOS------------- */
+
+section {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
 
 /* -------------FLEXBOX - CARDS RESPONSIVAS------------- */
 
