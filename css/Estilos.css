@@ -146,16 +146,14 @@ h3 { font-size: 1.25rem; color: var(--color-subtitulos);}
 }   
 
 .SeccionInferior {
-    color: var(--color-texto);
-    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     background-color: var(--color-secundario);
     color: var(--color-fondo);
     padding: 1rem;
+    padding-top: 15px;
     border-radius: 15px;
     margin-bottom: 2rem;
-    padding-top: 15px;
 }
 
 /* -------------ASIDE----------------*/
@@ -292,9 +290,8 @@ p {
 footer {
     background-color: var(--color-footer);
     text-align: center;
-    color: white;    
+    color: white;
     padding: 1.5rem;
     margin-top: 1.75rem;
-    margin: 0 auto;
 }
 
