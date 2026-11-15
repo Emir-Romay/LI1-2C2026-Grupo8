@@ -20,6 +20,12 @@ form.addEventListener("submit", (e) => {
         return;
     }
 
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        alert("⚠️ Ingresá un correo electronico valido.");
+        return;
+    }
+
     alert("✅ Mensaje enviado correctamente. ¡Gracias por contactarnos!");
     form.reset();
 });
