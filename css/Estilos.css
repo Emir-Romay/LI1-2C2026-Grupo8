@@ -224,6 +224,11 @@ aside ul {
 
 }
 
+.bloque {
+    display: flex;
+    flex-direction: column;
+}
+
 /* -------------ZONAS DE LA CIUDAD----------------*/
 .zona {
     margin: 1rem;
