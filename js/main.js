@@ -1,9 +1,16 @@
 const boton = document.getElementById("btn-modo");
+const estadoGuardado = localStorage.getItem("modoOscuro");
+
+if (estadoGuardado === "activo") {
+    document.body.classList.add("oscuro");
+    boton.textContent = "☀️ Modo claro";
+}
+
 boton.addEventListener("click", () => {
     document.body.classList.toggle("oscuro");
-    boton.textContent = document.body.classList.contains("oscuro")
-        ? "☀️ Modo claro"
-        : "🌙 Modo oscuro";
+    const esOscuro = document.body.classList.contains("oscuro");
+    boton.textContent = esOscuro ? "☀️ Modo claro" : "🌙 Modo oscuro";
+    localStorage.setItem("modoOscuro", esOscuro ? "activo" : "inactivo");
 });
 
 const form = document.getElementById("form-contacto");
