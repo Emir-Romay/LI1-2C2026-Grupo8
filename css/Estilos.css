@@ -327,6 +327,8 @@ footer {
     color: white;
     padding: 1.5rem;
     margin-top: 1.75rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
 }
 
 /* -------------MODO OSCURO----------------*/
