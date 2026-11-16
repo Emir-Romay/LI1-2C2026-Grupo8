@@ -80,6 +80,15 @@ nav a:hover {
     padding: 1rem;
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        padding: 10px;
+        overflow: hidden;
+    }
+
+}
+
 .arreglarBotonCerrar {
     margin-left: 17rem;
 }
@@ -162,8 +171,19 @@ h3 { font-size: 1.25rem; color: var(--color-subtitulos);}
     padding: 1rem;
     padding-top: 15px;
     border-radius: 15px;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
+
+.SeccionInferior img {
+    width: 50%;
+    align-self: center;
+    height: 50%;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+
 
 /* -------------ASIDE----------------*/
 aside {
